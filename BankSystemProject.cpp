@@ -292,7 +292,7 @@ void addNewClients() {
 	string AccountNumber;
 	stClient Client;
 	char Again = 'f';
-	bool notFirst = true;
+	bool notFirst = false;
 
 	do {
 
@@ -333,24 +333,7 @@ void addNewClients() {
 }
 
 //Find
-stClient findClientByAccountNumber(string AccountNumber) {
-
-	vector<stClient> v = getDataFromFile();
-
-	for (stClient& client : v) {
-
-		if (AccountNumber == client.AccountNumber) {
-
-			return client;
-
-		}
-		else {
-
-			cout << " Client is not found ... " << endl;
-
-		}
-	}
-}
+ 
 void findClient() {
 
 	system("cls");
@@ -416,7 +399,7 @@ void deleteClient() {
 	cout << "           Delete Client Screen            " << endl;
 	cout << "---------------------------------------------" << endl;
 
-	vector<stClient> v = getDataFromFile();
+	 
 	stClient client;
 	char sure = 'f';
 
