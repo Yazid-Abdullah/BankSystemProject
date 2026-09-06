@@ -1,0 +1,5 @@
+﻿  BankSystemProject.cpp
+C:\Users\C-ROAD\source\repos\BankSystemProject\BankSystemProject\BankSystemProject.cpp(32,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\C-ROAD\source\repos\BankSystemProject\BankSystemProject\BankSystemProject.cpp(237,1): warning C4715: 'getClientInformationByAccountNumber': not all control paths return a value
+C:\Users\C-ROAD\source\repos\BankSystemProject\BankSystemProject\BankSystemProject.cpp(353,1): warning C4715: 'findClientByAccountNumber': not all control paths return a value
+  BankSystemProject.vcxproj -> C:\Users\C-ROAD\source\repos\BankSystemProject\x64\Debug\BankSystemProject.exe
